@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wu 8618309625083,  , LIC=MPPLD-8NG0T-X7PRZ-JK73Q-GU9XX-PV4U0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.14.0.0
+Toolchain Path:  D:\software_English_save\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\study_data_save\stm32_project\HAL\smart_car\MDK-ARM\smart_car.uvprojx
+Project File Date:  08/11/2025
+
+<h2>Output:</h2>
+Build target 'smart_car'
+compiling main.c...
+../Core/Inc/sg90.h(5): warning:  #1295-D: Deprecated declaration sg90_init - give arg types
+  void sg90_init();
+../Core/Inc/sg90.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/hcsr04.h(5): warning:  #1295-D: Deprecated declaration hcsr04_start - give arg types
+  void hcsr04_start();
+../Core/Inc/hcsr04.h(6): warning:  #1295-D: Deprecated declaration hcsr04_stop - give arg types
+  void hcsr04_stop();
+../Core/Inc/hcsr04.h(7): warning:  #1295-D: Deprecated declaration hcsr04_measure - give arg types
+  float hcsr04_measure();
+../Core/Inc/hcsr04.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/oled.h(13): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+../Core/Inc/oled.h(14): warning:  #1295-D: Deprecated declaration OLED_DisPlay_On - give arg types
+  void OLED_DisPlay_On();
+../Core/Inc/oled.h(15): warning:  #1295-D: Deprecated declaration OLED_DisPlay_Off - give arg types
+  void OLED_DisPlay_Off();
+../Core/Inc/oled.h(17): warning:  #1295-D: Deprecated declaration OLED_NewFrame - give arg types
+  void OLED_NewFrame();
+../Core/Inc/oled.h(18): warning:  #1295-D: Deprecated declaration OLED_ShowFrame - give arg types
+  void OLED_ShowFrame();
+../Core/Inc/oled.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif // __OLED_H__
+../Core/Src/main.c(175): warning:  #223-D: function "sprintf" declared implicitly
+        sprintf(numStr, "%d", (int)measure_distance);
+../Core/Src/main.c(419): warning:  #940-D: missing return statement at end of non-void function "barrier_state"
+  }
+../Core/Src/main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=15496 RO-data=2000 RW-data=64 ZI-data=3160  
+FromELF: creating hex file...
+"smart_car\smart_car.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\study_data_save\stm32_project\HAL\smart_car\MDK-ARM\RTE
+  D:\software_English_save\keil5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\software_English_save\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
